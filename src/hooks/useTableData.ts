@@ -12,6 +12,12 @@ export interface IPaginatedTableData {
   created: string;
   status: string;
   statusColor: string;
+  address: string;
+  city: string;
+  phone: string;
+  email: string;
+  id_number: string;
+  npwp_number: string;
 }
 
 export interface IWideTableData {
@@ -40,6 +46,12 @@ export function useTableData() {
       created: 'Jan 21, 2020',
       status: 'Active',
       statusColor: 'green',
+      address: 'Gayamsari',
+      city: 'Semarang',
+      phone: '081987654321',
+      email: 'vera@gmail.com',
+      id_number: '3316020101990001',
+      npwp_number: '1234567890',
     },
     {
       picture:
@@ -49,6 +61,12 @@ export function useTableData() {
       created: 'Jan 01, 2020',
       status: 'Active',
       statusColor: 'green',
+      address: 'Candisari',
+      city: 'Semarang',
+      phone: '081234567890',
+      email: 'blake@gmail.com',
+      id_number: '3316020101990002',
+      npwp_number: '1234567891',
     },
     {
       picture:
@@ -58,6 +76,12 @@ export function useTableData() {
       created: 'Jan 10, 2020',
       status: 'Suspended',
       statusColor: 'orange',
+      address: 'Banyumanik',
+      city: 'Semarang',
+      phone: '0819876543210',
+      email: 'moore@gmail.com',
+      id_number: '3316020101990005',
+      npwp_number: '1234567893',
     },
     {
       picture:
@@ -67,6 +91,12 @@ export function useTableData() {
       created: 'Jan 18, 2020',
       status: 'Inactive',
       statusColor: 'red',
+      address: 'Krapyak',
+      city: 'Semarang',
+      phone: '081987654329',
+      email: 'vera@gmail.com',
+      id_number: '3316020101990004',
+      npwp_number: '1234567899',
     },
   ]);
 

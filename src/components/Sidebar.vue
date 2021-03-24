@@ -46,6 +46,119 @@
           <span class="mx-4">Dashboard</span>
         </router-link>
 
+        <br>
+        <span class="mx-4">MASTER</span>
+
+        <router-link
+          class="flex items-center duration-200 mt-4 py-2 px-6 border-l-4"
+          :class="[$route.name === 'Employee' ? activeClass : inactiveClass]"
+          to="/master/employee"
+        >
+          <span class="mx-4">Employee</span>
+        </router-link>
+
+        <router-link
+          class="flex items-center duration-200 mt-4 py-2 px-6 border-l-4"
+          :class="[$route.name === 'Amanitis' ? activeClass : inactiveClass]"
+          to="/master/amanitis"
+        >
+          <span class="mx-4">Amanitis</span>
+        </router-link>
+
+        <router-link
+          class="flex items-center duration-200 mt-4 py-2 px-6 border-l-4"
+          :class="[$route.name === 'HotelType' ? activeClass : inactiveClass]"
+          to="/master/hoteltype"
+        >
+          <span class="mx-4">Hotel Type</span>
+        </router-link>
+
+        <router-link
+          class="flex items-center duration-200 mt-4 py-2 px-6 border-l-4"
+          :class="[$route.name === 'Room' ? activeClass : inactiveClass]"
+          to="/master/room"
+        >
+          <span class="mx-4">Room</span>
+        </router-link>
+
+        <router-link
+          class="flex items-center duration-200 mt-4 py-2 px-6 border-l-4"
+          :class="[$route.name === 'HotelPackage' ? activeClass : inactiveClass]"
+          to="/master/hotelpackage"
+        >
+          <span class="mx-4">Hotel Package</span>
+        </router-link>
+
+        <router-link
+          class="flex items-center duration-200 mt-4 py-2 px-6 border-l-4"
+          :class="[$route.name === 'Client' ? activeClass : inactiveClass]"
+          to="/master/client"
+        >
+          <span class="mx-4">Client</span>
+        </router-link>
+
+        <router-link
+          class="flex items-center duration-200 mt-4 py-2 px-6 border-l-4"
+          :class="[$route.name === 'HK' ? activeClass : inactiveClass]"
+          to="/master/housekeeper"
+        >
+          <span class="mx-4">Housekeeper</span>
+        </router-link>
+
+        <br>
+        <span class="mx-4">TRANSACTION</span>
+
+        <router-link
+          class="flex items-center duration-200 mt-4 py-2 px-6 border-l-4"
+          :class="[$route.name === 'RequestOrder' ? activeClass : inactiveClass]"
+          to="/transaction/requestorder"
+        >
+          <span class="mx-4">Request Order</span>
+        </router-link>
+
+        <router-link
+          class="flex items-center duration-200 mt-4 py-2 px-6 border-l-4"
+          :class="[$route.name === 'PaymentHK' ? activeClass : inactiveClass]"
+          to="/transaction/paymenthk"
+        >
+          <span class="mx-4">Payment to Housekeeper</span>
+        </router-link>
+
+        <router-link
+          class="flex items-center duration-200 mt-4 py-2 px-6 border-l-4"
+          :class="[$route.name === 'PaymentConfirmation' ? activeClass : inactiveClass]"
+          to="/transaction/confirmation"
+        >
+          <span class="mx-4">Payment Confirmation</span>
+        </router-link>
+
+        <br>
+        <span class="mx-4">REPORT</span>
+
+        <router-link
+          class="flex items-center duration-200 mt-4 py-2 px-6 border-l-4"
+          :class="[$route.name === 'OrderReport' ? activeClass : inactiveClass]"
+          to="/report/order"
+        >
+          <span class="mx-4">Order Report</span>
+        </router-link>
+
+        <router-link
+          class="flex items-center duration-200 mt-4 py-2 px-6 border-l-4"
+          :class="[$route.name === 'HKReport' ? activeClass : inactiveClass]"
+          to="/report/hk"
+        >
+          <span class="mx-4">House Keeper Report</span>
+        </router-link>
+
+        <router-link
+          class="flex items-center duration-200 mt-4 py-2 px-6 border-l-4"
+          :class="[$route.name === 'PaymentReport' ? activeClass : inactiveClass]"
+          to="/report/payment"
+        >
+          <span class="mx-4">Payment Report</span>
+        </router-link>
+
         <router-link
           class="flex items-center duration-200 mt-4 py-2 px-6 border-l-4"
           :class="[$route.name === 'UIElements' ? activeClass : inactiveClass]"
